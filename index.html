@@ -2,26 +2,62 @@
 <html>
   <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>website</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
   </head>
   <body>
     <nav>
       <ul class="container">
-        <div class="left">
-          <li>THÉA CARTER w e b  d e v e l o p e r</li>
+        <div>
+          <img src="images/myname.png" alt="">
+          <!-- <li><strong>THÉA CARTER</strong> w e b  d e v e l o p e r </br> &amp; d e s i g n e r</li> -->
         </div>
       </ul>
     </nav>
+    <!-- <a href="mailto:tcarter@gmail.com">Email me</a> -->
 
-    <ul class="container">
+    <ul class="container whole">
       <div class="row">
-        <div class="col-md-6 col-xs-12" id="content"><img class="mypic" src="images/me.png" alt=""></div>
-        <div class="col-md-6 col-xs-12" id="content">.col-6</div>
+        <div class="col-md-4 col-xs-12" id="content">
+
+          <img class="mypic" src="images/webprofpic.png" alt="">
+          <p><strong>ABOUT ME</strong></br>I came to coding after graduating from drama school and wanting a change. I’ve always been driven by creativity, and the relationship between design and development. Throughout my time at General Assembly  I have explored multiple areas of full-stack web development, finding a love of CSS and front-end capability in the process. Versed in ‘play’ based thinking and creation at drama school, I’m looking for opportunities to produce thoughtful work and continue to learn.
+          </br>It’s unrealistic to believe that 12 weeks is enough to learn every nuance that various programming languages have to offer, but the GA course is about fostering an approach to learning which cultivates problem solving, lateral thinking and a level of engagement which drives the desire to keep learning.
+          </br><strong>HERE'S WHAT I'VE LEARNT SO FAR</strong></br>Javascript, jQuery, CSS, SASS, HTML, AngularJS, Node.js, PostgreSQL, Ruby, Bootstrap, Photoshop, Sketch, MongoDB, Express, Git, Auth, tokens, AJAX, JSON, Sinatra, Rails, Gulp, Insomnia and Bower.
+        </br><strong>WHAT I'M WORKING ON NEXT</strong></br> An application for Actors to organise and track their auditions. Please watch this space for more information.</p>
+        </div>
+        <div class="col-md-8 col-xs-12" id="content">
+
+          <div class="slider">
+            <div><img src="images/grain.png">
+              <a href="http://grain-design-app.herokuapp.com" target="_blank">
+                <div class="index-image-overlay">
+                  <h2>view site</h2>
+                </div>
+              </a>
+            </div>
+            <div><img src="images/trail.png"><a href="https://project-3-trail.herokuapp.com" target="_blank">view site</a></div>
+            <div><img src="images/eventcupid.png"><a href="https://event-cupid-dating.herokuapp.com" target="_blank">view site</a></div>
+            <div><img src="images/supermarket.png"><a href="https://ancient-peak-65729.herokuapp.com" target="_blank">view site</a></div>
+          </div>
+
+        </div>
       </div>
     </ul>
+    <div class="contactme">
+      <a href="mailto:theacarteruk@gmail.com"><img class="icon" src="images/email.png"></a>
+      <a href="https://twitter.com/TheaCarter" target="_blank"><img class="icon" src="images/twitter.png"></a>
+      <a href="https://www.linkedin.com/in/thea-carter" target="_blank"><img class="icon" src="images/linkedin.png"></a>
+      <a href="https://github.com/Tcarter350" target="_blank"><img class="icon" src="images/github.png"></a>
+      <!-- <a href="https://www.instagram.com/thearrr"><img src="images/instagram.png"></a> -->
+    </div>
+    <footer>&copy;théa carter 2017</footer>
   </body>
 </html>
